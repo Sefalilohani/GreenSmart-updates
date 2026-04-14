@@ -10,7 +10,7 @@ REDASH_REPORT_URL = f"{REDASH_URL}/queries/{QUERY_ID}#2896"
 
 _raw_token    = os.environ["SLACK_BOT_TOKEN"]
 SLACK_TOKEN   = "xoxb" + _raw_token[4:31] + "bFqMGfkmHBzvLRtU1It2ptnt"
-SLACK_CHANNEL = "PLACEHOLDER_CHANNEL_ID"  # TODO: replace with Green Smart Mobility Slack channel ID
+SLACK_CHANNEL = "C0APDRT5U73"
 
 CC_USERS = [
     "<@U026K56UJQL>",
